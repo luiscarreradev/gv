@@ -99,6 +99,13 @@ define( 'COOKIEHASH', 'e3c65f0eef6344ebbcedeb8d3ee47419' );
 define( 'WP_AUTO_UPDATE_CORE', 'minor' );
 /* That's all, stop editing! Happy publishing. */
 
+define( 'WP_HOME', 'https://af389891a3b0.ngrok-free.app/gv' );
+define( 'WP_SITEURL', 'https://af389891a3b0.ngrok-free.app/gv' );
+
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+    $_SERVER['HTTPS'] = 'on';
+}
+
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
