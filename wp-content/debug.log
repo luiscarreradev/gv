@@ -1,0 +1,48 @@
+[15-Jul-2025 18:52:17 UTC] Error de evento de reprogramación de cron para el gancho: elementor_1_elementor_updater_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[16-Jul-2025 13:19:17 UTC] PHP Warning:  Undefined variable $reason in /opt/lampp/htdocs/gv/wp-content/plugins/premium-addons-for-elementor/admin/includes/feedback.php on line 49
+[16-Jul-2025 13:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_control() in /opt/lampp/htdocs/gv/wp-content/plugins/mi-wrapper-elementor/widgets/link-wrapper-widget.php:59
+Stack trace:
+#0 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): Elementor_Link_Wrapper_Widget->register_controls()
+#1 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\Controls_Stack->init_controls()
+#2 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\Widget_Base->init_controls()
+#3 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\Controls_Stack->get_stack()
+#4 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/managers/widgets.php(403): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /opt/lampp/htdocs/gv/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /opt/lampp/htdocs/gv/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /opt/lampp/htdocs/gv/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /opt/lampp/htdocs/gv/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/gv/wp-content/plugins/mi-wrapper-elementor/widgets/link-wrapper-widget.php on line 59
+[16-Jul-2025 13:20:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_control() in /opt/lampp/htdocs/gv/wp-content/plugins/mi-wrapper-elementor/widgets/link-wrapper-widget.php:59
+Stack trace:
+#0 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): Elementor_Link_Wrapper_Widget->register_controls()
+#1 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\Controls_Stack->init_controls()
+#2 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\Widget_Base->init_controls()
+#3 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\Controls_Stack->get_stack()
+#4 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/managers/widgets.php(403): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /opt/lampp/htdocs/gv/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /opt/lampp/htdocs/gv/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /opt/lampp/htdocs/gv/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /opt/lampp/htdocs/gv/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/gv/wp-content/plugins/mi-wrapper-elementor/widgets/link-wrapper-widget.php on line 59
+[16-Jul-2025 13:20:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_control() in /opt/lampp/htdocs/gv/wp-content/plugins/mi-wrapper-elementor/widgets/link-wrapper-widget.php:59
+Stack trace:
+#0 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): Elementor_Link_Wrapper_Widget->register_controls()
+#1 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\Controls_Stack->init_controls()
+#2 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\Widget_Base->init_controls()
+#3 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\Controls_Stack->get_stack()
+#4 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/includes/managers/widgets.php(403): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /opt/lampp/htdocs/gv/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /opt/lampp/htdocs/gv/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /opt/lampp/htdocs/gv/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /opt/lampp/htdocs/gv/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /opt/lampp/htdocs/gv/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/gv/wp-content/plugins/mi-wrapper-elementor/widgets/link-wrapper-widget.php on line 59
+[16-Jul-2025 13:33:33 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>wordfence</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /opt/lampp/htdocs/gv/wp-includes/functions.php on line 6121
